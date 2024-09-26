@@ -1,0 +1,173 @@
+body{
+    background-color: #f7e8e8;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    margin: 3px;
+}
+
+.meme{
+    font-size: 45px;
+    text-shadow: 
+    3px 3px 6px #333, 
+    -2px -2px 3px #666;
+    animation: color 3s infinite ease-in;
+}
+
+#logoArea, #contact{
+        background: linear-gradient(135deg, royalblue, lightcoral);
+        color: #fff;
+        text-align: center;
+        padding: 50px 20px;
+        position: relative;
+        border-radius: 0 0 30px 30px;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+};
+
+#token__d:hover{ 
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        top: 10px;
+}
+
+
+#about, #tokenomics, #roadMap, #contact, #copyright{
+    border-radius: 30px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+#tokenomics{
+    background-color: aliceblue;
+}
+
+#tokenomics .coin, .tax{
+    background-color: lightcoral;
+    margin-right: 20px;
+}
+
+.token{
+   
+}
+
+#tokenomics .col{
+    border-radius: 30px;
+    max-width: 250px;
+}
+.tokenomics{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.roadMap{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#roadMap .row{
+    background-color: lightcoral;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.fab{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+.fas{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.text-primary{
+    font-weight: bold;
+}
+
+.dance{
+    animation: dance 3s infinite;
+  }
+
+.rotate{
+    animation: rotate 4s linear infinite;
+}
+
+.bounce{
+    animation: bounce 2s infinite;
+}
+  
+  @keyframes dance {
+    0% {
+      transform: translateY(0) scaleX(1);
+    }
+    10% {
+      transform: translateY(-10px) scale(1.1);
+    }
+    20% {
+      transform: translateY(0) scale(1);
+    }
+    30% {
+      transform: translateY(10px) scale(0.9);
+    }
+    40% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: rotate(10deg) scale(1.1);
+    }
+    60% {
+      transform: rotate(-10deg) scale(1);
+    }
+    70% {
+      transform: rotate(0) scale(1);
+    }
+    80% {
+      transform: translateY(-10px) scale(1.1);
+    }
+    90% {
+      transform: translateY(0) scale(1);
+    }
+    100% {
+        transform: translateY(0) scale(1);
+      }
+    }
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    }
+
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes color {
+    0% {
+        color: green;
+      }
+     25% {
+        color: rgb(221, 221, 57);
+     }  
+      50% {
+        color: greenyellow;
+      }
+      75%{
+        color: linear-gradient(135deg, royalblue, lightcoral);
+      }
+      100% {
+        color :green;
+      }
+    }
+  
+  
+      
